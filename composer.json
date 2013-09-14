@@ -1,11 +1,10 @@
 {
-    "name": "leighmacdonald/php_rbac",
+    "name": "polycademy/php_rbac",
     "type": "library",
     "description": "An implementation of RBAC Level 2",
-    "homepage": "https://github.com/leighmacdonald/php_rbac",
+    "homepage": "https://github.com/Polycademy/php_rbac",
     "license": "MIT",
     "keywords": ["auth", "authentication", "rbac", "database"],
-    "version": "1.0.0",
     "authors": [
         {
             "name": "Leigh MacDonald",
