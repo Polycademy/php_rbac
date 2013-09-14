@@ -5,14 +5,18 @@
     "homepage": "https://github.com/Polycademy/php_rbac",
     "license": "MIT",
     "keywords": ["auth", "authentication", "rbac", "database"],
-    "authors": [
-        {
-            "name": "Leigh MacDonald",
-            "email": "leigh.macdonald@gmail.com",
-            "homepage": "http://cudd.li",
-            "role": "Developer"
-        }
-    ],
+    "authors": [{
+        "name": "Roger Qiu",
+        "email": "roger.qiu@polycademy.com",
+        "homepage": "http://polycademy.com",
+        "role": "Founder and Developer"
+    },
+    {
+        "name": "Leigh MacDonald",
+        "email": "leigh.macdonald@gmail.com",
+        "homepage": "http://cudd.li",
+        "role": "Developer"
+    }],
     "require": {
         "php": ">=5.4.0",
         "psr/log": "1.0.0"
