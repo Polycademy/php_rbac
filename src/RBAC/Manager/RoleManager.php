@@ -86,9 +86,11 @@ class RoleManager extends Logger
      * @param \RBAC\Subject\SubjectInterface $subject Initialized subject instance
      * @return Role[] Roles the user has assigned
      */
-    public function roleFetchSubjectRoles(SubjectInterface $subject, $permissions = true)
+    public function roleFetchSubjectRoles(SubjectInterface $subject)
     {
-        return $this->storage->roleFetchSubjectRoles($subject, $permissions);
+        $roles = $this->storage->roleFetchSubjectRoles($subject);
+        $this->roleLoadPermissions($roles);
+        return $roles;
     }
 
     /**
